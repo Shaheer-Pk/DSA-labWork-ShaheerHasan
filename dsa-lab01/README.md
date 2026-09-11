@@ -15,7 +15,8 @@ We changed the second element of an array and observed results.
 We made an array which can hold 5 number. Populated it with a for loop and then using another for loop totalled the result.
 
 ## Task 3
-We made a class of student, created two objects and performed manipualtions using dot operator
+We made a class of student, created two objects and performed manipualtions using dot operator.
+The data of s2 is un-affected by manipulation of s1 precisely because they are two independent objects and have their own seperate **memory locations**.
 
 ## Task 4
 Used nested for loop to find repeated values.
