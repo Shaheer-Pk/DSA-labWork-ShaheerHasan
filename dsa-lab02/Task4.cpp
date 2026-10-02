@@ -4,22 +4,24 @@ using namespace std;
 int main() {
     int rows, cols;
 
-    // 2. Read and validate rows and cols
+    // (2) objectives
+    // Read and validate rows and cols
     cout << "Enter number of students and subjects: ";
     cin >> rows >> cols;
 
     if (rows <= 0 || cols <= 0) {
-        cout << "Invalid input dimensions." << endl;
+        cout << "Invalid inputs." << endl;
         return 1;
     }
 
-    // 2. Allocate dynamically (int** and row pointers)
+    // Allocate dynamically
     int** marks = new int*[rows];
     for (int r = 0; r < rows; r++) {
         marks[r] = new int[cols];
     }
 
-    // 3. Read marks using pointer notation
+    // (3) objectives
+    // Read marks using pointer notation
     cout << "Enter marks for each student:" << endl;
     for (int r = 0; r < rows; r++) {
         for (int c = 0; c < cols; c++) {
@@ -27,7 +29,7 @@ int main() {
         }
     }
 
-    // 3. Display matrix using pointer notation
+    // Display matrix using pointer notation
     cout << "\nMarks Matrix:" << endl;
     for (int r = 0; r < rows; r++) {
         for (int c = 0; c < cols; c++) {
@@ -36,7 +38,8 @@ int main() {
         cout << endl;
     }
 
-    // 4. Calculate student totals and track top student
+    // (4) objectives
+    // Calculate student totals and track top student
     int bestStudent = 1;
     int highestTotal = -1;
 
@@ -59,7 +62,8 @@ int main() {
 
     cout << "Top student: " << bestStudent << " (Total: " << highestTotal << ")" << endl;
 
-    // 5. Delete allocated memory
+    // (5) objectives
+    // Delete allocated memory
     for (int r = 0; r < rows; r++) {
         delete[] marks[r];
     }
