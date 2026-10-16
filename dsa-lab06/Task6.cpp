@@ -1,6 +1,6 @@
 // Name: Shaheer Hasan Khan
 // Registration No: 543016
-// Section: BSCS-15D
+// Section: BSCS-15-D
 //
 // Lab 06, Task 6: Customer service queue using a linear array queue.
 // Limitation Explained:

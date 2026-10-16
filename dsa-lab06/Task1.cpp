@@ -1,6 +1,6 @@
 // Name: Shaheer Hasan Khan
 // Registration No: 543016
-// Section: BSCS-15-D  (fill in D or E)
+// Section: BSCS-15-D
 //
 // Lab 06, Task 1: Stack implemented with a fixed-size array.
 
